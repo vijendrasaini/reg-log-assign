@@ -24,7 +24,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/learnlogin/public/';
+    // public $baseURL = 'http://localhost/learnlogin/public/';
+    public $baseURL = 'https://reg-log-assign.herokuapp.com/';
 
     /**
      * --------------------------------------------------------------------------
