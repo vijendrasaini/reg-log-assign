@@ -9,7 +9,7 @@
     <p class="h2 fw-bold mt-2 mb-4">Register with us</p>
     <div class="row">
         <div class="col-6">
-            <form action="http://localhost/learnlogin/public/index.php/register" method="post" class="pe-5" novalidate>
+            <form action="<?=base_url()?>register" method="post" class="pe-5" novalidate>
                 <div class="mb-4">
                     <label for="" class="form-label">First Name</label>
                     <input class="form-control" type="text" name="firstname" value="<?= set_value("firstname") ?>">
